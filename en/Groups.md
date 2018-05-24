@@ -118,3 +118,7 @@ The **Refresh** button updates the entry table to reflect the current groups sel
 ### Mixing refining groups with including groups
 
 If a refining group is a subgroup of a group that includes its subgroups -- the refining group's siblings --, these siblings are ignored when the refining group is selected.
+
+## Group-Icons
+
+By default, a label-outline icon is assigned to a new group. But it is possible to customize both the icon and it's color in the "edit group" dialog. To assign a color you can use either regular expressions or a hex color code (e.g. "red" is recognized the same way as 0xff0000ff). Finally, you can change the icon by using a corresponding label from the Material Design Icons. You can find the list here: https://materialdesignicons.com/. If the label of your chosen icon includes hyphens, you have to substitute each with an underscore (e.g. change "label-outline" to "label_outline"). If the label is not recognized, the default icon will be used.
